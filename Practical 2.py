@@ -1,4 +1,11 @@
-## Write a program to compute Fahrenheit from centigrade
+# Q:1 
+
+
+
+
+
+
+# Q:5 Write a program to compute Fahrenheit from centigrade
 
 TempC = int(input("Enter the temperature in Centigrade: "))
 TempF = (1.8 * TempC) + 32
