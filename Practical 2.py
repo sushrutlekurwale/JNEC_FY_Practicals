@@ -40,6 +40,7 @@ elif unit == 'centimetres':
 else:
     print("Enter the valid unit!")
 
+
   
 
 # Q:4 Write a program to interchange two numbers
@@ -55,3 +56,32 @@ print("Interchanged numbers are as follows \n First number: ", a, "\n Second num
 c = int(input("Enter the temperature in Centigrade: "))
 f = (1.8 * c) + 32
 print("Temperature in Fahrenheit: ", f )
+
+
+#Q: Create a datatype identifier
+a = 5
+print("type of a:", type(a))
+b = 5.0
+print("type of b:", type(b))
+c = 2 + 4j
+print("type of c:", type(c))
+d ='Name'
+print("type of d:", type(d))
+e = [2, 4, 4.5, "ABC"]
+print("type of e:", type(e))
+f = (4, 7.4, 'abc')
+print("type of f:", type(f))
+
+#Q:Print whether the number is positive, negative or zero
+def number():
+    num = int(input("Enter the number:"))
+    if num > 0:
+        print("The entered number is positive!")
+    elif num < 0:
+        print("The entered number is negative!")
+    elif num == 0:
+        print("The entered number is zero!")
+        
+number()
+number()
+number()
