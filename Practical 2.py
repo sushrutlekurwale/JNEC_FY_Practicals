@@ -39,9 +39,7 @@ elif unit == 'centimetres':
 else:
     print("Enter the valid unit!")
 
-
-  
-
+    
 # Q: Write a program to interchange two numbers
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -82,16 +80,50 @@ def number():
         print("The entered number is zero!")
         
 number()
-number()
-number()
+
+
+# Q: String operations
+a = 'My name is Sushrut!'
+b = 'My surname is Lekurwale!'
+print(a[11:18]) 
+print(a[9])
+print(a + b)
+print(a*10)
+
+# Q: Tuple operations
+t = ("hi", "python", 2, 'hello')
+print(t[1:])
+print(t)
+print(t + t)
+print(t * 3)
+print(type(t))
+print(t[2])
 
 # Q: Write a program to input the basic salary of an employee and calculate the gross salary according to the given conditions:
 # Basic Salary <= 10000: HRA=20% DA=80%
 # Basic Salary is between 10001 to 20000: HRA=25% DA=90% 
 # Basic Salary >= 20001: HRA=10% DA=95%
+bs = int(input("Enter the basic salary of an employee:"))
+if bs <= 10000:
+  hra = (20*bs)/100
+  da = (80*bs)/100
+  gs = bs + hra + da
+elif bs >= 10001 && bs <= 20000:
+  hra = (20*bs)/100
+  da = (80*bs)/100
+  gs = bs + hra + da
+elif bs > 20000:
+  hra = (20*bs)/100
+  da = (80*bs)/100
+  gs = bs + hra + da
+else:
+  print(Enter valid basic salary!)
+  
+ print("The gross salary of an employee:", gs)
+  
 
 # Q: If the ages of three brothers are input through the keyboard, write a program to determine the youngest and oldest of three brothers
-
+age1 = int(input("The age of brother 1 is :"))
 # Q: Write a program to calculate the overtime pay of employee, overtime is paid at the rate of Rs.12.00/hour for every hour worked above 40 hours. Assume that employee do not work for fractional hours
 
 # Q: 
