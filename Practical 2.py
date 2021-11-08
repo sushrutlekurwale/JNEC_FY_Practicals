@@ -126,4 +126,22 @@ else:
 age1 = int(input("The age of brother 1 is :"))
 # Q: Write a program to calculate the overtime pay of employee, overtime is paid at the rate of Rs.12.00/hour for every hour worked above 40 hours. Assume that employee do not work for fractional hours
 
-# Q: 
+
+#Q: Calculator program (Perform operations using all arithmetic operators)
+x = int(input("Enter first number:"))
+y = int(input("Enter the second number:"))
+op = input("Enter the operator")
+if op == '+':
+    print('x + y = ', x + y)
+if op == '-':
+    print ('x - y =' ,x - y)
+if op == '/':
+    print('x / y = ', x / y)
+if op == '//':
+    print('x // y = ', x // y)
+if op == '*':
+    print('x * y = ', x * y)
+if op == '**':
+    print('x ** y = ', x ** y)
+if op == '%':
+    print('x % y =', x % y)
