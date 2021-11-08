@@ -124,6 +124,8 @@ else:
 
 # Q: If the ages of three brothers are input through the keyboard, write a program to determine the youngest and oldest of three brothers
 age1 = int(input("The age of brother 1 is :"))
+
+
 # Q: Write a program to calculate the overtime pay of employee, overtime is paid at the rate of Rs.12.00/hour for every hour worked above 40 hours. Assume that employee do not work for fractional hours
 
 
@@ -145,3 +147,23 @@ if op == '**':
     print('x ** y = ', x ** y)
 if op == '%':
     print('x % y =', x % y)
+    
+#Q: Write a program to convert the given days into years, months and days
+n = int(input("Enter the number of days:"))
+print("The number of years: ", n/365)
+print("The number of months: ", n/30)
+
+#Q: Write a program to convert a given seconds into hours, minutes and seconds
+n = int(input("Enter the number of seconds:"))
+print("The number of hours: ", int(n/3600))
+print("The number of minutes: ", int(n/60))
+
+#Q: Write a program to read an amount (in Rs.) and break the amount into smallest possible number of bank notes. The possible bank notes are: 100, 50, 20, 10, 5, 2, 1.
+a = int(input("Enter the amount: "))
+print("The number of notes of Rs.100: ", a//100)
+print("The number of notes of Rs.50: ", a//50)
+print("The number of notes of Rs.20: ", a//20)
+print("The number of notes of Rs.10: ", a//10)
+print("The number of notes of Rs.5: ", a//5)
+print("The number of notes of Rs.2: ", a//2)
+print("The number of notes of Rs.1: ", a//1)
