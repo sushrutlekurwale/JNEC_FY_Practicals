@@ -130,9 +130,9 @@ age1 = int(input("The age of brother 1 is :"))
 
 
 #Q: Calculator program (Perform operations using all arithmetic operators)
-x = int(input("Enter first number:"))
-y = int(input("Enter the second number:"))
-op = input("Enter the operator")
+x = int(input("Enter first number: "))
+y = int(input("Enter the second number: "))
+op = input("Enter the operator: ")
 if op == '+':
     print('x + y = ', x + y)
 if op == '-':
