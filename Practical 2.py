@@ -99,6 +99,14 @@ print(t * 3)
 print(type(t))
 print(t[2])
 
+#Q: Dictionary operations
+d = {1:'Jimmy', 2:'Alex', 3:'John', 4:'Mike'}
+print("First name is: " + d[1] )
+print("Second is: "+ d[4])
+print(d)
+print(d.keys())
+print(d.values())
+
 # Q: Write a program to input the basic salary of an employee and calculate the gross salary according to the given conditions:
 # Basic Salary <= 10000: HRA=20% DA=80%
 # Basic Salary is between 10001 to 20000: HRA=25% DA=90% 
