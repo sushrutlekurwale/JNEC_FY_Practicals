@@ -183,3 +183,11 @@ print("The number of notes of Rs.10: ", a//10)
 print("The number of notes of Rs.5: ", a//5)
 print("The number of notes of Rs.2: ", a//2)
 print("The number of notes of Rs.1: ", a//1)
+
+#Q: Print the limited no. of Floating point objects
+n = 12.45
+n2 =34.67
+sum = n + n2
+print("The sum is: ", sum)
+print("The sum is %.2f"%sum)
+print("The sum is %.2d"%sum)
