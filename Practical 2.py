@@ -107,6 +107,14 @@ print(d)
 print(d.keys())
 print(d.values())
 
+#Q: Set operations
+set1 = {1, 2, 3} #same datatype
+print(set1)
+set1 = {1.0, 'Hello', (123, 124, 125)} #mixed datatypes
+print(set1)
+set1 = {1, 2, 3, 4, 3, 2} #no duplicates allowed!
+print(set1)
+
 # Q: Write a program to input the basic salary of an employee and calculate the gross salary according to the given conditions:
 # Basic Salary <= 10000: HRA=20% DA=80%
 # Basic Salary is between 10001 to 20000: HRA=25% DA=90% 
