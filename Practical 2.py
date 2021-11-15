@@ -1,4 +1,5 @@
 
+
 # Q: Write a program to find area and perimeter of geometric objects
 obj = input("Enter the shape of object (circle/square/triangle/rectangle)")
 if obj == 'circle':
