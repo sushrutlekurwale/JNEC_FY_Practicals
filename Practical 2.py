@@ -99,6 +99,10 @@ print(t * 3)
 print(type(t))
 print(t[2])
 
+# Q: Maximum no. from list
+a =[1,2,3,4,5]
+print(max(a))
+
 #Q: Dictionary operations
 d = {1:'Jimmy', 2:'Alex', 3:'John', 4:'Mike'}
 print("First name is: " + d[1] )
